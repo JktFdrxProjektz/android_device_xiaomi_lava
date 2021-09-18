@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-   $(LOCAL_DIR)/lineage_lava.mk
+   $(LOCAL_DIR)/sakura_lava.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_lava-user \
-    lineage_lava-userdebug \
-    lineage_lava-eng
+    sakura_lava-user \
+    sakura_lava-userdebug \
+    sakura_lava-eng
