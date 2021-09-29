@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-   $(LOCAL_DIR)/legion_lava.mk
+   $(LOCAL_DIR)/spark_lava.mk
 
 COMMON_LUNCH_CHOICES := \
-    legion_lava-user \
-    legion_lava-userdebug \
-    legion_lava-eng
+    spark_lava-user \
+    spark_lava-userdebug \
+    spark_lava-eng
