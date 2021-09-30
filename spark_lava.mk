@@ -39,7 +39,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/telephony_system_ext.mk)
 PRODUCT_PROPERTY_OVERRIDES += \
        ro.spark.maintainer=FaaRlxSqd
 SPARK_MAINTAINER := FaaRlxSqd
-SPARK_BUILD_TYPE := OFFICIAL
+SPARK_BUILD_TYPE := UNOFFICIAL
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := lava
