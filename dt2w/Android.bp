@@ -16,7 +16,7 @@
  */
 
 android_app {
-    name: "DT2W-Service-Lava",
+    name: "DT2W-Service-lancelot",
 
     srcs: ["src/**/*.java"],
     resource_dirs: ["res"],
@@ -30,13 +30,13 @@ android_app {
     },
 
     required: [
-        "privapp-permissions_org.lineageos.dt2w.lava"
+        "privapp-permissions_org.lineageos.dt2w.lancelot"
     ]
 }
 
 prebuilt_etc {
-    name: "privapp-permissions_org.lineageos.dt2w.lava",
+    name: "privapp-permissions_org.lineageos.dt2w.lancelot",
     sub_dir: "permissions",
-    src: "privapp-permissions_org.lineageos.dt2w.lava.xml",
+    src: "privapp-permissions_org.lineageos.dt2w.lancelot.xml",
     filename_from_src: true,
 }
