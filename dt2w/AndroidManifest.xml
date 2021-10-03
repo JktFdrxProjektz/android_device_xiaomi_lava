@@ -18,6 +18,6 @@
             </intent-filter>
         </receiver>
 
-        <service android:enabled="true" android:name=".DT2WServiceLava" />
+        <service android:enabled="true" android:name=".DT2WServiceLancelot" />
     </application>
 </manifest>

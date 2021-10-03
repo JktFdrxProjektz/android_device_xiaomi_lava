@@ -18,7 +18,7 @@
 
 set -e
 
-DEVICE=lava
+DEVICE=lancelot
 VENDOR=xiaomi
 
 INITIAL_COPYRIGHT_YEAR=2020
