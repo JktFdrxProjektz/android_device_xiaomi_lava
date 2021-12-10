@@ -15,7 +15,7 @@
 #
 
 # Inherit from merlin device makefile
-$(call inherit-product, device/xiaomi/lancelot/device.mk)
+$(call inherit-product, device/xiaomi/lava/device.mk)
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
@@ -23,17 +23,17 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 
 # Inherit from our custom product configuration
-$(call inherit-product, vendor/rr/config/common_full_phone.mk)
+$(call inherit-product, vendor/arrow/config/common.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := lancelot
-PRODUCT_NAME := rr_lancelot
+PRODUCT_DEVICE := lava
+PRODUCT_NAME := arrow_lava
 PRODUCT_BRAND := Redmi
 PRODUCT_MANUFACTURER := xiaomi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 TARGET_VENDOR := xiaomi
-TARGET_VENDOR_PRODUCT_NAME := lancelot
+TARGET_VENDOR_PRODUCT_NAME := lava
 PRODUCT_BUILD_PROP_OVERRIDES += PRIVATE_BUILD_DESC="redfin-user 11 RQ3A.210805.001.A1 7474174 release-keys"
 TARGET_FACE_UNLOCK_SUPPORTED := true
 

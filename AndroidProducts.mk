@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-   $(LOCAL_DIR)/rr_lancelot.mk
+   $(LOCAL_DIR)/arrow_lava.mk
 
 COMMON_LUNCH_CHOICES := \
-    rr_lancelot-user \
-    rr_lancelot-userdebug \
-    rr_lancelot-eng
+    arrow_lava-user \
+    arrow_lava-userdebug \
+    arrow_lava-eng
